@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+import propTypes from "prop-types";
 
 const Card = (prop) => {
   return (
@@ -19,8 +19,8 @@ const Card = (prop) => {
   );
 };
 
-Card.PropTypes= {
-    urlImage: PropTypes.string
+Card.propTypes= {
+    urlImage: propTypes.string
 }
 
 export default Card;

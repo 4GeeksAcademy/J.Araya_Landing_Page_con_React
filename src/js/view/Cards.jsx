@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 const Cards = () =>{
     return (
-        <div className="d-flex p-2 m-1">
+        <div className="d-flex justify-content-center flex-wrap p-2 m-1">
             <Card urlImage="https://picsum.photos/200/300?random=1"/>
             <Card urlImage="https://picsum.photos/200/300?random=2"/>
             <Card urlImage="https://picsum.photos/200/300?random=3"/>
